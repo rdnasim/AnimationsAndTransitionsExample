@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void moveButton() {
 
-        //TransitionManager.beginDelayedTransition(myLayout);
+        TransitionManager.beginDelayedTransition(myLayout);
         View myButton = findViewById(R.id.myButton);
         RelativeLayout.LayoutParams positionRules = new RelativeLayout.LayoutParams(
                 RelativeLayout.LayoutParams.WRAP_CONTENT,
